@@ -1,0 +1,14 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "mock-server",
+            "regizor": "r35007",
+            "imagine": "",
+            "video": "",
+            "category": "",
+            "rating": [1,2,3,4,5],
+            "durata": 120
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #000000, #e10000);
+    background-attachment: fixed;
+    color: aliceblue;
+    line-height: 1.5;
+    margin-top: 250px;
+  }
+
+  .container-home-content {
+    display: grid;
+    justify-content:space-around ;
+    align-items: center;
+    min-height: 100vh;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  .filmul-saptamani>iframe{
+    width: 1000px;
+    height: 600px;
+  }
+
+  

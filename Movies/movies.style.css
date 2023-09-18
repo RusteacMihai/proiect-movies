@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #000000, #e10000);
+  background-attachment: fixed;
+  color: aliceblue;
+  line-height: 1.5;
+  margin-top: 250px;
+}
+
+.sub-nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #020106;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.Categorii {
+  position: relative;
+  font-size: 25px;
+  left: 25px;
+}
+
+.Rate {
+  position: relative;
+  font-size: 25px;
+  left: -50px;
+}
+
+#search {
+  position: relative;
+  font-size: 20px;
+  right: 25px;
+  color:rgb(172, 2, 16);
+}
+
+
+.select.select{
+  font-size: 20px;
+  color: rgb(81, 76, 76)}
+
+.select>option {
+  font-size: 20px;
+
+}
+
+.container-movies {
+  width: 100%;
+}
+
+.row-movies {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 1200px;
+  margin: auto;
+  height: 100%;
+  gap: 15px;
+}
+
+.card {
+
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5%;
+    
+}
+
+.icon {
+  width: 20px;
+  position: relative;
+  bottom: 2px;
+}
+
+button.vizionare {
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  text-align: end;
+  background-color: #605e5e;
+  color: white;
+  border-style: solid;
+  border-color: #37373a;
+  border-radius:10px;
+}
+
+button.trailer {
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  text-align: end;
+  background-color: #605e5e;
+  color: white;
+  border-style: solid;
+  border-color: #37373a;
+  border-radius:10px;
+}
+
+.butoane {
+  display: flex;
+  gap: 5px;
+}
+
